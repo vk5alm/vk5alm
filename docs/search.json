@@ -1,0 +1,282 @@
+[
+  {
+    "objectID": "history.html",
+    "href": "history.html",
+    "title": "History of amateur radio in Murray Bridge",
+    "section": "",
+    "text": "The Murray Bridge Radio Society was formed on 14 December 1922. The following text is from the Mount Barker Courier and Onkaparinga and Gumeracha Advertiser, Friday 12 January 1923.\n\nOn December 14, 1922, a wireless society was formed at Murray Bridge, entitled “Murray Bridge Radio Society,” with a membership 15. The following were elected officers:\nPresident R. E. V. Stephens; vice-president W. J. Matthews; Hon. treasurer C. P. Pfeiffer; Hon. secretary F. G. Miller; council C. M. Parson, R. R. Frith, S. L. Prime, H. Andrews, G. C. G. Beavers, P. R. Scot, R. W. G. Francis.\nThe objects of the society are to aid members with advice and instruction in radio-telegraphy and telephony. General meetings are to be held fortnightly at the hon. secretary’s residence, (67) Eleanor Terrace, at 8 p.m., and members may avail themselves of buzzer practice every Thursday evening 8 to 8:30 p.m. Members of the club are very fortunate in having Mr. Miller’s station (Call 5BF) placed at their disposal by him for use as a club room. He has a splendid three-wire aerial of the L type, which will soon be increased to 60 feet in height. The station consists of a complete transmitting and receiving set. The sending part is of the spark type, but in the near future it is Mr. Miller’s intention to install a continuous wave set using the latest 5 watt power valve. The receiving set consists of a valve set, both Dutch, and a Radiotron UV 200 valve being used. With the use of the valve all commercial stations Australia are heard every day. The age limit for members is 14 or over, but persons desiring to join under that age may become auxiliary members. A cordial invitation is extended to all persons interested in radio-telegraphy to attend on meeting nights and listen to various commercial messages from all parts of Australia. In the near future, it is the Society’s intention to conduct experiments with other amateurs in the state in radio-telephony, that is wireless concerts, lectures etc. A transmitting license is being sought for the purpose of relaying to members having short range set messages from long distance stations, time signals, weather reports etc. The next general meeting will be held Monday evening next January 15th at 8 p.m. Mr Miller will contribute a talk on “Aerials” illustrated by means of a blackboard.\n\n\n\n\nMurray Bridge Amateur Radio Society, June 1923. Picture courtesy of the WIA Archives.\n\n\nOriginal 1923 newspaper clipping (PDF)",
+    "crumbs": [
+      "Home",
+      "Club",
+      "History of amateur radio in Murray Bridge"
+    ]
+  },
+  {
+    "objectID": "news/murray-bridge-show.html",
+    "href": "news/murray-bridge-show.html",
+    "title": "Murray Bridge Show 22–23 September 2017",
+    "section": "",
+    "text": "Sorry for the yellow hue in the pictures — the lighting was poor in the basketball hall.\nGeoff and Colin attended the stand full time, with Anthony making a part-time appearance.\n\n\n\nRadio is fun\n\n\nRadio is fun!!!\n\n\n\nNotice the SDR radio\n\n\nNotice the SDR radio…\n\n\n\nNotice how low the sweet jar is\n\n\nNotice how low the sweet jar is!\n\n\n\nDetermined to make a contact\n\n\nDetermined to make a contact!\nThanks Geoff for the photos."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "VK5RDM MMDVM repeater\nNew 2 metre repeater using AllStar\nDual 2 m / 70 cm vertical antenna\nAssisting schools with amateur radio\nDigital ham radio\nSplat diagrams of VK5RMB\nAmateur satellite predictions"
+  },
+  {
+    "objectID": "projects.html#current-projects",
+    "href": "projects.html#current-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "VK5RDM MMDVM repeater\nNew 2 metre repeater using AllStar\nDual 2 m / 70 cm vertical antenna\nAssisting schools with amateur radio\nDigital ham radio\nSplat diagrams of VK5RMB\nAmateur satellite predictions"
+  },
+  {
+    "objectID": "projects.html#amateur-radio-data-pages",
+    "href": "projects.html#amateur-radio-data-pages",
+    "title": "Projects",
+    "section": "Amateur radio data pages",
+    "text": "Amateur radio data pages\n\nGlobal Total Electron Count (TEC) maps\nSDR Academy"
+  },
+  {
+    "objectID": "projects.html#other",
+    "href": "projects.html#other",
+    "title": "Projects",
+    "section": "Other",
+    "text": "Other\n\nElectromagnetic Areopagus"
+  },
+  {
+    "objectID": "projects/maps-white-hill.html",
+    "href": "projects/maps-white-hill.html",
+    "title": "White Hill coverage map for VK5RLM (Splat)",
+    "section": "",
+    "text": "VK5RLM White Hill signal coverage"
+  },
+  {
+    "objectID": "projects/vk5rdm-codeplugs.html",
+    "href": "projects/vk5rdm-codeplugs.html",
+    "title": "VK5RDM Australian codeplugs",
+    "section": "",
+    "text": "These codeplugs are based on the VK2KVP codeplugs. Remember to update your callsign (Radio Name) and DMR ID (Radio ID) in the General Settings section of your codeplug editor.\n\nMD380\n\nVK5RDM MD380 Australian codeplug (1.34 MD380 Prog., firmware MD380 Tools 2018-02-08)\n\n\n\nGD77\n(No file was published on the original page.)\nCodeplugs provided by LMARC are for illustrative purposes only. This software is supplied “AS IS” without warranties or support. LMARC assumes no responsibility or liability for use of the codeplugs and conveys no licence or title under any patent, copyright, or mask work right. LMARC reserves the right to make changes without notification, and makes no representation that the codeplugs will be suitable for a specified use without further testing or modification."
+  },
+  {
+    "objectID": "projects/satellites.html",
+    "href": "projects/satellites.html",
+    "title": "Amateur satellite predictions",
+    "section": "",
+    "text": "Live pass predictions (embedded from AMSAT Argentina):\n\nThanks to amsat.org.ar."
+  },
+  {
+    "objectID": "projects/tec.html",
+    "href": "projects/tec.html",
+    "title": "Global Total Electron Count (TEC) maps",
+    "section": "",
+    "text": "The original site used a GetSimple plugin ({% GetTEC %}) that injected live maps. Those maps are public:\n\nAustralia / Bureau-related ionosphere products: SWS ionospheric map\nUS / NASA Global TEC: NASA CDDIS GNSS TEC\n\nRefresh those pages for the latest plot. The original note was that the Australian upper TEC map updated about every 60 minutes and the US map about every 5 minutes."
+  },
+  {
+    "objectID": "projects/dmr.html",
+    "href": "projects/dmr.html",
+    "title": "Digital ham radio",
+    "section": "",
+    "text": "Introduction to DMR\nTYT MD380 review\nMD380 tools / mods\nListen to DMR without a radio (BrandMeister hose)\nRegister for a DMR ID\nBrandMeister network\nBrandMeister talkgroup activity\nClub repeater: VK5RDM MMDVM and codeplugs"
+  },
+  {
+    "objectID": "projects/dmr.html#dmr",
+    "href": "projects/dmr.html#dmr",
+    "title": "Digital ham radio",
+    "section": "",
+    "text": "Introduction to DMR\nTYT MD380 review\nMD380 tools / mods\nListen to DMR without a radio (BrandMeister hose)\nRegister for a DMR ID\nBrandMeister network\nBrandMeister talkgroup activity\nClub repeater: VK5RDM MMDVM and codeplugs"
+  },
+  {
+    "objectID": "projects/dmr.html#p25",
+    "href": "projects/dmr.html#p25",
+    "title": "Digital ham radio",
+    "section": "P25",
+    "text": "P25\n\nIntroduction to P25\nOP25 project"
+  },
+  {
+    "objectID": "projects/dmr.html#nxdn",
+    "href": "projects/dmr.html#nxdn",
+    "title": "Digital ham radio",
+    "section": "NXDN",
+    "text": "NXDN\n\nWhat is NXDN?"
+  },
+  {
+    "objectID": "projects/dmr.html#hotspots",
+    "href": "projects/dmr.html#hotspots",
+    "title": "Digital ham radio",
+    "section": "Hotspots",
+    "text": "Hotspots\n\nSharkRF openSPOT\nDV-MEGA\n\nThe original page also linked several club-hosted PDFs (DMR guide, parrot setup, Astro/P25 notes, Tait T2000 wiring). Those files were not copied in full here; they can be pulled later from the live host if still needed."
+  },
+  {
+    "objectID": "projects/vk5rdm.html",
+    "href": "projects/vk5rdm.html",
+    "title": "VK5RDM MMDVM repeater",
+    "section": "",
+    "text": "The VK5RDM repeater is based on a Yaesu DR-1XE using an STM-DVM board with a Raspberry Pi running Pi-Star software.\n\nOutput Tx 439.850 MHz\nInput Rx 434.850 MHz (no CTCSS)\n\nSee the VK5RDM Australian codeplugs page for Australia-wide codeplugs that include VK5RDM.",
+    "crumbs": [
+      "Home",
+      "On air",
+      "VK5RDM repeater"
+    ]
+  },
+  {
+    "objectID": "projects/vk5rmb.html",
+    "href": "projects/vk5rmb.html",
+    "title": "Splat diagrams for VK5RMB",
+    "section": "",
+    "text": "To use the Google Earth files, download the zip and install Google Earth. Opening the .kml file overlays repeater coverage so you can zoom in.\n\n\n\nRegional coverage, 200 ft TX / 6 ft RX\n\n\n\nGoogle Earth files for VK5RMB",
+    "crumbs": [
+      "Home",
+      "On air",
+      "VK5RMB coverage"
+    ]
+  },
+  {
+    "objectID": "ham-news.html",
+    "href": "ham-news.html",
+    "title": "Tech ham news",
+    "section": "",
+    "text": "JS8Call expands weak-signal messaging capabilities\nJS8Call continues to evolve, offering enhanced weak-signal keyboard-to-keyboard messaging for HF operators. js8call.com\nWSJT-X update brings new FT8 enhancements\nRefinements to FT8 and other digital modes. WSJT-X\nFCC removes baud rate limits for HF digital modes\nA US ruling eliminates baud-rate restrictions on HF while keeping a 2.8 kHz bandwidth limit. ARRL\nVK DMR network announces a major software transition\nMoving away from IPSC2 toward a system intended to be more independent of overseas servers. vkdmr.com\nBrandMeister DMR updates radio ID policies\nStricter compliance with international radio ID standards. BrandMeister news\nBTECH introduces satellite functionality in DMR radios\nFirmware updates for the DMR-6X2 series. BTECH\nInnovAntennas releases new low-noise Yagi designs\ninnovantennas.com\nHorizon Antennas Australia expands custom antenna offerings\nhorizonantennasaustralia.com.au\nRT Innovations introduces a tower-mounted antenna lift system\nFor Rohn towers. rtinnovations.net"
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Calendar and events",
+    "section": "",
+    "text": "The original Events page on the GetSimple site had no published body text (only a page date of 9 August 2017).\nStanding club meetings are listed on the home page:\n\nSecond and fourth Wednesday of each month\n7:00 p.m.\nCombined Clubs, Johnstone Park, 12 Thomas Street, Murray Bridge\n\nWhen the next show stand, field day or foxhunt is booked, add it here.",
+    "crumbs": [
+      "Home",
+      "Club",
+      "Calendar and events"
+    ]
+  },
+  {
+    "objectID": "projects/dual-band-antenna.html",
+    "href": "projects/dual-band-antenna.html",
+    "title": "Dual 2 m / 70 cm vertical antenna",
+    "section": "",
+    "text": "Technical details for the 2 m / 70 cm dual-band vertical antenna (PDF)"
+  },
+  {
+    "objectID": "projects/t2fd.html",
+    "href": "projects/t2fd.html",
+    "title": "T2FD antenna — the low-noise marvel",
+    "section": "",
+    "text": "The low-noise antenna for a high-noise environment.\n\nComparison of T2FD with Carolina Windom (YouTube)\n\nThe original page also hosted several PDFs (modelling notes, TFD/T2FD papers, ALE antennas, TC2M HF vertical). Those remain on the live GetSimple host under data/uploads/projects/antenna/."
+  },
+  {
+    "objectID": "projects/electromagnetic-areopagus.html",
+    "href": "projects/electromagnetic-areopagus.html",
+    "title": "Electromagnetic Areopagus",
+    "section": "",
+    "text": "Reference material that was linked from the original club page:\n\nElectrically small antenna patent — Grimes (USPTO 6,437,750)\nElectrically small antenna patent — Brown (USPTO 8,149,173)\nT2FD antenna — the low-noise marvel\nBook: Electromagnetic Origin of Quantum Theory and Light by Dale M. Grimes and Craig A. Grimes\n\nLocal copies of the original PDFs and NEC file can still be fetched from the live host if required."
+  },
+  {
+    "objectID": "projects/schools.html",
+    "href": "projects/schools.html",
+    "title": "Assisting schools with amateur radio",
+    "section": "",
+    "text": "How Secondary School Science, Mathematics and other STEAM Teachers can gain much from the American Radio Relay League’s (ARRL) ‘Education And Technology Project’ (ETP)\nAustralian Amateur Radio Magazine May 2017.\nSuppose that as a teacher, you were able to apply for a professional development course in another State, that paid for your travel and accommodation for four days of appropriate intensive training in things technological that you could incorporate into your courses, with all equipment being used given to you gratis to take home, some $2000 - $2500 in all.\nAs a graduate of the course, your school could apply for a grant of a full radio station of equipment and you would also be eligible to return to higher level courses as they occurred. You would learn how to track and use information from satellites, guide robotic vehicles and drones, gather environmental data from the air (via weather balloons), on top of water (marine buoy) and under the water (marine robot); perform experiments to retrieve data from remote sensors, interpret it and use it to control things.\nThis would be ‘mouth-watering’ to a STEAM teacher.\nThe term ‘STEP’ (Science, technology, engineering project), has evolved into ‘STEM’ (by including mathematics) and at long last, ‘STEAM’- a name to include Science, Technology, Engineering, Arts, and Mathematics.\nNo longer is the Art Teacher to be regarded as the ‘hoon down the hall’, showing students how to make better graffiti on the communities’ walls, railway carriages and lamp posts, but are now to be regarded as the ‘creative and innovative designers and talented packagers of things technological’, thanks to the association with design of the popular ‘Arduino’ open-source electronics modules and stages and their ability, when asked, to simplify prototypes, make understandable manuals, put them into attractive containers and packaging and defining the copyright when the engineer-technologist wishes to sell them. All these activities involve waves in the electromagnetic spectrum, particularly in the safer radio waves part of the spectrum.\nTeachers however, are reticent about using radio, because of the severe restrictions on their use that require an amateur radio licence. But for STEAM teachers, nothing could be easier! My 12 year old grandson has his licence.\nGaining a Foundation licence has become much easier in the US and Australia ever since the requirement for Morse code has been dropped. The number of amateur radio licences granted after the prerequisite of Morse Code was dropped in the USA has grown to explosive proportions.\nHere in Australia, learning the theory and sitting for what is really an easy ‘Foundation’ licence exam, gives the required hours of appropriate teacher professional development for an additional week of school holiday at the end of the school year. All costs can be claimed as an income tax deduction. For the theory, buy the text ‘Your Entry into Amateur Radio’ by Ron Bertrand and Phil Wait and make sure that people at school have seen you reading it for obvious reasons. A good idea would be to join the Australian ‘Electronics and Radio School’ ($30) after using a web-browser to find it.\nThis is a correspondence course with interactive CD and plenty of help from experts, over the computer. All your test items and slides for teaching are suggested by the course materials. Training by an Amateur Radio Club could typically be on a Saturday from 9 to 5! The practical training on how to operate a radio and the actual exam would probably be next day on the Sunday. A cheque to the WIA of $70 for the licence (plus a fee for a call-sign recommendation) means that you can walk away a fully accredited amateur Foundation licence operator, after the WIA has sent you the paperwork for a ‘call-sign’ and the ACMA processes your licence application and you pay the licence fee. If we are uncertain on the projections of what kind of jobs there will be in the future, one thing is certain … a knowledge of communication, electronics and technology can only help our students gain employment.\nThe Australian National Curriculum is bent on linking schools’ subject matter with aspects of STEAM, so is to bolster the myth that we are, or will become; a ‘clever nation’ and those things technological will cure our present and future ills. I can read your thoughts at this point dear reader and pragmatic teacher. “Oh yes! Where is the money and time for training going to come from?” Well the Americans have done it and gone down the same path as we no doubt will, and all their materials, including teacher lesson plans, circuits for ‘activity boards’ are either downloadable, or can be purchased from their commercial suppliers. These can be used as enrichment and motivation in Primary and Secondary courses. If the school does not pay for them, then you can employ the income tax deduction principle for ‘work related materials’.\nThe Americans have had a 16 year lead of providing empowerment to teachers in teaching and demonstrating radio and technology principles allied to their STEAM courses, providing motivation to students regarding their employment prospects. Their students have been gaining certificates of attendance and proficiency to bolster their interviews for jobs, or as part of one’s curriculum vitae when going for a Rotary-exchange scholarship.\nThe ‘Big Project’, as it was originally known, began in the year 2000, launched by the Dallas Ham Radio Club, the second oldest in the USA, as an entirely donor funded project.\nMany teachers remain uncomfortable with wireless technology and are unaware of the best ways to teach it. Their aim was to transform teaching using wireless technology in an attempt to make the population more radio literate. The organisers knew that incorporating “wireless literacy” into the broader educational landscape is not something that would happen overnight, but it could have a role in developing a favourable climate for it to occur. They believed that reaching teachers first was the key.\nThe American Radio Relay League saw the value of what the Dallas club was doing and took it over as the ‘ARRL Educational and Technology Project’. It still focussed on empowering teachers and considerably strengthened its donor base, enlisting other radio clubs and corporate sponsors such as Yaesu and Parallax and increasing the number of people who could apply.\nThe project started with only nine people who came together in one state. Now there are ‘Teacher Institutes’ (‘workshops’ or ‘seminars’) in four separate and dispersed states throughout the US, catering for around 30 people in each, and now with four recent graduate teacher-facilitators, where once there was only one ARRL Education Officer with volunteer helpers. In 2004 it launched what was to be the first highly successful teacher professional development program lasting four days, aimed at providing the nine attendees, teachers from Primary to University level, with basic tools and teaching strategies, to introduce the Science of radio, space technology, weather, micro-controller basics and robotics in their classrooms.\nTrevor Molde VK5NIX\nHands-on instruction during what was now called ‘Teachers Institutes’ included learning how to solder by building a 24-hour clock, conduct a fox-hunt activity (i.e. find a hidden transmitter), participate in ham satellite contacts, observing the collection of satellite imagery transmitted by NOAA satellites, assemble a robot and learning how to program a micro-controller to guide the robot through a maze.\nThe next step was to control the robot with commands sent by ham radio using APRS! These are all activities teachers will use to engage students with interactive learning when they return to their classrooms.\nFive years later in 2009, they offered the first ‘Advanced Teachers Institute program’, called TI-2, to focus training for previous Teachers Institute graduates on ‘Space in  the Classroom’. One of the goals of this seminar is to prepare schools for ‘International Space Station’ contacts. Four years later again, in 2013 they introduced an advanced TI-2, focused on using electronic sensors and ham radio for data transmission.\nThe seminar was aptly named, ‘Remote Sensing and Data Gathering’. Three types of resources are given to successful applicants and their schools. Resources for instruction, including kits and projects; a professional development opportunity, open to Amateur Radio licensed and unlicensed Primary and Secondary teachers; grants for radio stations and related equipment open to schools with a Teachers Institute graduate on staff. Each school must formally accept the grant (thus locking in their support). The total package of the station grants is approximately $3600. Schools winning a grant would receive basic equipment and an antenna system to establish an Amateur Radio station at their facilities.\nSchools are encouraged to partner with a local Amateur Radio club. There is not a super-abundance of grants. The ARRL Executive Committee reviews ETProject grant applications twice a year, in June and December. The ARRL Board of Directors accepts the recommendation of the Executive Committee and approves up to four grants to schools twice a year. In the 2015-2016 academic years, seven schools received grants from the ARRL. Resources awarded ranged from licence manuals, fox-hunting equipment (to find a hidden transmitter), a marine buoy, a transceiver and a complete station. So far 579 schools have received support from the E.T.Project. in the form of equipment and resource grants.\nThe ARRL Teachers Institute program makes the connections between science and math concepts and the engineering and technology applications of those concepts…in other words STEAM instruction that will result in real student learning. Teachers use mathematical, graphing, graphics calculator, spreadsheet and critical-thinking skills -to make sense of the data collected during the various activity-board activities.\nTo be eligible as an applicant, teachers must demonstrate that they have been active in their schools, college or professional educational organisations serving grade levels, 4 - 12+, (or those leading school affiliated enrichment programs) .Though participants need not hold an Amateur Radio licence to enrol in the introductory TI-1, to be considered for a seat in TI-2 advanced courses such as ‘Remote Sensing’, participants must possess at least a Technician (US) licence at the time of application. Previous participation in the TI-1 is required and ARRL membership is also required. One can see the bias towards the ARRL here. Donations from the ham radio community and the equipment sponsors have helped the ARRL Education & Technology Program provide teacher training to more than 570 schools (2015) and 650 teachers since the inception of the Teachers Institute in 2004.\nOne can guess that it is a smart marketing ploy giving teachers one of every activity board and piece of equipment at cost to the ARRL. When the teacher goes back and finds that he or she needs multiple sets of the same, this is where the commercial supplier reaps the reward for clever marketing. Overall, the program is moving in the right direction, but is not easy to document. “Any real change in the educational community takes at least 12 years to come to fruition.\nIn many cases, the program plants a seed that might flower down the road when a youngster exposed to wireless technology and electronics via the ETP makes his or her academic plans and career choices”\n(QST Nov 2009 p 67).\nHere is a precis of some activities that have evolved over the 16 years that the ETProject has been in existence.\nHow to operate and use a PC Oscilloscope: this ‘dongle’, which is USB driven, is the first thing that teachers are provided with (and take home) on their first day of attendance. The organisers ensure that these work on the students’ own laptops for doing work in the courses ( for us, the dongle and course book may be purchased from ‘Parallax’ and the Adelaide Hills Amateur Radio Society is showing interest in BangGood’s JYE Tech DSo138 DIY Digital Oscilloscope Kit SMD soldered 13803K version with housing oscillator for US$22.70 or AUS$30 postage free).\nBasic Electronics Course: Included is a PowerPoint presentation and instructor’s script. The course is designed around affordable components, prototyping board, and multimeter and uses\n‘Understanding Basic Electronics’ – a teacher downloaded zip file containing the course description, cript, presentation and parts listing needed to execute the demonstrations.(Download using a browser at the ARRL site).\nHere in Australia, a member of the Adelaide Hills Radio Society has resurrected an electronics teaching board which was made ‘in the thousands’ for TAFE students ‘some years ago’. It has been greatly reduced in price (say around $80) and we are looking for a way of interesting teachers to teach electronics using component and system electronics in addition to ‘Arduino’. This is used in conjunction with the ‘BangGood’ oscilloscope mentioned above. No-Solder Code Practice Oscillator and no-solder electronic organ are applications of the ‘Basic Electronics Course’ (circuit diagrams and instructions from ARRL site).\nSoldering 101: ARRL provided a PowerPoint lesson which walks you through the basics of soldering from start to finish and attendees use their skills to solder together parts of a digital clock (from ARRL site). Interface Connections TI-1 course: How to interface activity boards safely to computers (ARRL site). L/C/Resonance activity board: Allows students to explore many facets of alternating current and Radio Frequency theory. It helps them unravel the mysteries of capacitive and inductive reactance, verify reactance formulas using actual data taken from the activity board and measure the resonant frequency of either series or parallel L/C circuits (circuit diagrams and instructions from ARRL site equipment purchasable from ‘Parallax’).\nDigital to Analog Converter (DAC) Board: Leads to exploration of digital signal processing (DSP) fundamentals including root mean\nsquare (RMS) voltage and current and the mathematical derivation of RMS (circuit diagrams and instructions from ARRL site or purchasable from ‘Parallax’).\nSatellite tracking: -teachers are shown how to build their own Yagi directional antenna employing metal tape measures as the driver and reflectors. A circuit board attachment to a radio enables the teacher to listen to the satellite after having used software to track and identify the satellite. (Google for tape-measure plans, circuit available from ARRL, download ‘Orbitron’ for free and look at YouTube for practical applications).\nFox Hunting: a term for using a 2 m radio and homemade directional antenna to locate a hidden transmitter (circuit diagram off ARRL).\nProgramming a micro-controller: An entry-level tutorial introducing circuit-building and micro-controller programming at the same time with a tiny on-board computer like the ones found in many electronic devices.\nThere are 40 hands-on activities in a 350-page text (Text, experiments and micro-controller available from ‘Parallax’). MAREA [Mars Lander/Marine Amateur] Radio Robotics Exploration.\nActivity: This activity involves programming robots to respond to commands sent by packet radio. It employs a UHF radio transceiver designed for communication with the robot.\nRemote Sensing and Data Gathering seminar over 5 days (a TI-2) using a low cost marine research buoy outfitted with sensors for environmental exploration.\nThe buoy is a hands-on project that each teacher assembles and programs. This “do it yourself” activity trains the teacher in how electronic sensor data is converted into usable information about the environment, how the micro-controller is programmed to sample the data, how to configure the program APRS to send and receive the data, and how to upload the data into ‘Excel’ for evaluation and analysis. The aim is that students will be using technology to do active research. The end point is to provide the in-depth knowledge and tools teachers need to help their students actually “do” remote sensing from start to finish, develop the sensor packages, collect the accumulated data, and perform the math to make sense of the data.\nHome-brew Radio Telescope: teachers are shown how to make a small radio telescope and how to collect and analyse the radio frequency energy that is emitted by bodies in space, very much like how astronomers us e light energy collected by telescopes; how to connect several together to make a larger radio telescope and use it to determine solar drift of the Sun.\nThere are more projects available.\nMembers of the Adelaide Hills Amateur Radio Society will be looking closely at events unfolding in the WIA (Wireless Institute ofAustralia) Annual General Meeting to be held at Hahndorf in May.\nReading what has occurred already at their October 2016 invitation-only conference in Canberra, proposals seem to identify to this writer that the participants have the same ideas and projects that the ARRL ‘Teacher Institutes’ have been employing for the last 16 years.\nThis will undoubtedly colour what will happen in Australia. We have a long way to catch up! It would be difficult to mount such a scheme here in Australia … but not impossible. Certain aspects of it could be implemented. We are certainly capable of doing similar things where the teachers pay for their own professional development or the Education Department… as they always have.  We do not have the population and largesse of our American counterparts.\nMotivation in part, for teachers in South Australia and elsewhere, can be provided by their right to join the students with an extra week of holidays at the end of the year, if they can prove that they have had so-many hours of appropriate professional development throughout the year. Any workshops would be centred on a state capital and most people from the country either have friends or alternative accommodation in those cities.\nBecause of State Government stipulations on professional development of teachers, expenses are automatically a tax deduction.\nOur radio clubs have ‘more expertise per square metre’ at their meetings than anywhere else in Australia, to be able to design ‘activity boards’ using the wealth of circuit diagrams placed on the Web by the ARRL, or purchased and ‘reconfigured ‘from the American suppliers. There are lesson plans and enough guidance for us to do what the Americans have always done to us in the past … copy and improve on the original!\nWhy reinvent the wheel? It would also provide the means of having many interesting talks and workshops for our radio clubs; keep the members abreast of what is happening in schools to help their children and grand-children; and provide expert help to the teachers and youths/children in our schools.\nWithout us the teachers face’ burn-out’. The retired ‘old fellas’ would have a real purpose in life, where experience, based on prior employment, or interests, could be a very valuable resource for our youth and lead to a betterment of our communities.\nBibliography\nQST magazines from 2000 to 2017, available from major state libraries.\nPublished on June 5th, 2017"
+  },
+  {
+    "objectID": "projects/allstar.html",
+    "href": "projects/allstar.html",
+    "title": "New 2 metre repeater using AllStarLink",
+    "section": "",
+    "text": "AllStarLink has added features that make it easier to connect to remote repeaters and hubs. allstarlink.org\nCompact AllStar nodes using a Raspberry Pi are a common way to stand up a personal repeater link. EMDRC how-to\nThe West Australian Repeater Group has published AllStar how-to guides. WARG"
+  },
+  {
+    "objectID": "projects/allstar.html#allstarlink-notes",
+    "href": "projects/allstar.html#allstarlink-notes",
+    "title": "New 2 metre repeater using AllStarLink",
+    "section": "",
+    "text": "AllStarLink has added features that make it easier to connect to remote repeaters and hubs. allstarlink.org\nCompact AllStar nodes using a Raspberry Pi are a common way to stand up a personal repeater link. EMDRC how-to\nThe West Australian Repeater Group has published AllStar how-to guides. WARG"
+  },
+  {
+    "objectID": "projects/allstar.html#coverage-maps-for-possible-vk5rlm-sites",
+    "href": "projects/allstar.html#coverage-maps-for-possible-vk5rlm-sites",
+    "title": "New 2 metre repeater using AllStarLink",
+    "section": "Coverage maps for possible VK5RLM sites",
+    "text": "Coverage maps for possible VK5RLM sites\nSplat coverage plots for a proposed 2-metre repeater:\n\nClubhouse location\nWhite Hill\nGifford Hill"
+  },
+  {
+    "objectID": "projects/maps-gifford-hill.html",
+    "href": "projects/maps-gifford-hill.html",
+    "title": "Gifford Hill coverage map for VK5RLM (Splat)",
+    "section": "",
+    "text": "VK5RLM Gifford Hill signal coverage"
+  },
+  {
+    "objectID": "projects/maps-clubhouse.html",
+    "href": "projects/maps-clubhouse.html",
+    "title": "Clubhouse coverage map for VK5RLM (Splat)",
+    "section": "",
+    "text": "VK5RLM clubhouse signal coverage"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "Hams gain exemption in Iowa’s distracted-driving law\nOperators in Iowa can now legally use amateur radio equipment while driving, thanks to a new exemption in the state’s distracted-driving regulations. Read more\nAustralia’s class-licence conditions under review\nRegulators in Australia are seeking public input on proposed changes to amateur radio licensing conditions. Details\nWorld Amateur Radio Day celebrations\nCities worldwide, including Ottawa, have issued proclamations recognising World Amateur Radio Day. Learn more\nAMSAT releases latest space communications bulletin\nSatellite communications updates and upcoming amateur radio space events. Check it out\nHam radio takes first journey on Florida Trail event\nOperators combined hiking and radio communication along Florida’s scenic trails. Read the full story",
+    "crumbs": [
+      "Home",
+      "Club",
+      "News"
+    ]
+  },
+  {
+    "objectID": "news.html#amateur-radio-news",
+    "href": "news.html#amateur-radio-news",
+    "title": "News",
+    "section": "",
+    "text": "Hams gain exemption in Iowa’s distracted-driving law\nOperators in Iowa can now legally use amateur radio equipment while driving, thanks to a new exemption in the state’s distracted-driving regulations. Read more\nAustralia’s class-licence conditions under review\nRegulators in Australia are seeking public input on proposed changes to amateur radio licensing conditions. Details\nWorld Amateur Radio Day celebrations\nCities worldwide, including Ottawa, have issued proclamations recognising World Amateur Radio Day. Learn more\nAMSAT releases latest space communications bulletin\nSatellite communications updates and upcoming amateur radio space events. Check it out\nHam radio takes first journey on Florida Trail event\nOperators combined hiking and radio communication along Florida’s scenic trails. Read the full story",
+    "crumbs": [
+      "Home",
+      "Club",
+      "News"
+    ]
+  },
+  {
+    "objectID": "news.html#club-news",
+    "href": "news.html#club-news",
+    "title": "News",
+    "section": "Club news",
+    "text": "Club news\n\nMurray Bridge Show, 22–23 September 2017\nVK5ALM radio club celebrates 100 years",
+    "crumbs": [
+      "Home",
+      "Club",
+      "News"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Radio Club meeting times, all are welcome!",
+    "section": "",
+    "text": "Our Radio club (which is affiliated with the Adelaide Hills Amateur Radio Society) meets at 7:00 p.m. on the second and fourth Wednesdays each month at the “Combined clubs” in Johnstone Park, Murray Bridge.\nThe entrance to Johnstone Park, which houses our club rooms, is at 12 Thomas Street, Murray Bridge. Anyone with an interest in radio communications is welcome.\nWe look forward to seeing you there!"
+  },
+  {
+    "objectID": "index.html#vk5rdm-repeater",
+    "href": "index.html#vk5rdm-repeater",
+    "title": "Radio Club meeting times, all are welcome!",
+    "section": "VK5RDM Repeater",
+    "text": "VK5RDM Repeater\n\nOutput Tx 439.850 MHz\nInput Rx 434.850 MHz (No CTCSS tone)\n\nSee the VK5RDM MMDVM page for hardware notes and codeplugs."
+  },
+  {
+    "objectID": "index.html#support-the-wireless-institute-of-australia",
+    "href": "index.html#support-the-wireless-institute-of-australia",
+    "title": "Radio Club meeting times, all are welcome!",
+    "section": "Support the Wireless Institute of Australia",
+    "text": "Support the Wireless Institute of Australia\n\nAmateur Radio magazine\nAdvancing and protecting our licence privileges\nProtecting our radio spectrum\nNational ham radio news service\nTechnical reference material for hams\n\nVisit the WIA\nThis club is affiliated with AHARS.\n\n\n\n\n\n\nNoteConverted site\n\n\n\nThis Quarto site was rebuilt from the live GetSimple pages at http://vk5alm.duckdns.org so the club can publish on GitHub Pages without a paid domain."
+  },
+  {
+    "objectID": "news/100-years.html",
+    "href": "news/100-years.html",
+    "title": "VK5ALM radio club celebrates 100 years",
+    "section": "",
+    "text": "The club marked its centenary and was featured in local news:\nhttps://www.murraybridge.news/p/lower-murray-amateur-radio-club-celebrates"
+  }
+]

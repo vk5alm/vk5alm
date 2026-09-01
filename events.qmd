@@ -1,0 +1,13 @@
+---
+title: "Calendar and events"
+---
+
+The original Events page on the GetSimple site had no published body text (only a page date of 9 August 2017).
+
+Standing club meetings are listed on the [home page](index.qmd):
+
+- **Second and fourth Wednesday** of each month
+- **7:00 p.m.**
+- Combined Clubs, Johnstone Park, **12 Thomas Street, Murray Bridge**
+
+When the next show stand, field day or foxhunt is booked, add it here.

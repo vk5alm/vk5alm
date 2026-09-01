@@ -1,0 +1,5 @@
+---
+title: "White Hill coverage map for VK5RLM (Splat)"
+---
+
+![VK5RLM White Hill signal coverage](../images/maps/VK5RLM-WH-signal.png){fig-alt="Splat signal coverage from White Hill" .cover-map}

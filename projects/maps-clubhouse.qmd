@@ -1,0 +1,5 @@
+---
+title: "Clubhouse coverage map for VK5RLM (Splat)"
+---
+
+![VK5RLM clubhouse signal coverage](../images/maps/VK5RLM-signal.png){fig-alt="Splat signal coverage from the clubhouse site" .cover-map}

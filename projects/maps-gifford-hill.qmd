@@ -1,0 +1,5 @@
+---
+title: "Gifford Hill coverage map for VK5RLM (Splat)"
+---
+
+![VK5RLM Gifford Hill signal coverage](../images/maps/VK5RLM-GH-Signal.png){fig-alt="Splat signal coverage from Gifford Hill" .cover-map}

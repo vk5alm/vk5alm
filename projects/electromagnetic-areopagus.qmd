@@ -1,0 +1,12 @@
+---
+title: "Electromagnetic Areopagus"
+---
+
+Reference material that was linked from the original club page:
+
+- [Electrically small antenna patent — Grimes (USPTO 6,437,750)](https://patents.google.com/patent/US6437750)
+- [Electrically small antenna patent — Brown (USPTO 8,149,173)](https://patents.google.com/patent/US8149173)
+- [T2FD antenna — the low-noise marvel](t2fd.qmd)
+- Book: *Electromagnetic Origin of Quantum Theory and Light* by Dale M. Grimes and Craig A. Grimes
+
+Local copies of the original PDFs and NEC file can still be fetched from the live host if required.

@@ -1,0 +1,30 @@
+---
+title: "Tech ham news"
+---
+
+- **JS8Call expands weak-signal messaging capabilities**  
+  JS8Call continues to evolve, offering enhanced weak-signal keyboard-to-keyboard messaging for HF operators. [js8call.com](http://js8call.com/)
+
+- **WSJT-X update brings new FT8 enhancements**  
+  Refinements to FT8 and other digital modes. [WSJT-X](https://wsjt.sourceforge.io/wsjtx.html)
+
+- **FCC removes baud rate limits for HF digital modes**  
+  A US ruling eliminates baud-rate restrictions on HF while keeping a 2.8 kHz bandwidth limit. [ARRL](https://www.arrl.org/news/arrl-hails-fcc-action-to-remove-symbol-rate-restrictions)
+
+- **VK DMR network announces a major software transition**  
+  Moving away from IPSC2 toward a system intended to be more independent of overseas servers. [vkdmr.com](https://www.vkdmr.com/)
+
+- **BrandMeister DMR updates radio ID policies**  
+  Stricter compliance with international radio ID standards. [BrandMeister news](https://news.brandmeister.network/category/dmr-news/)
+
+- **BTECH introduces satellite functionality in DMR radios**  
+  Firmware updates for the DMR-6X2 series. [BTECH](https://baofengtech.com/btech-introduces-satellite-functionality-in-new-firmware-updates-for-dmr-6x2-pro-and-dmr-6x2/)
+
+- **InnovAntennas releases new low-noise Yagi designs**  
+  [innovantennas.com](https://www.innovantennas.com/en/)
+
+- **Horizon Antennas Australia expands custom antenna offerings**  
+  [horizonantennasaustralia.com.au](https://www.horizonantennasaustralia.com.au/)
+
+- **RT Innovations introduces a tower-mounted antenna lift system**  
+  For Rohn towers. [rtinnovations.net](http://www.rtinnovations.net/)

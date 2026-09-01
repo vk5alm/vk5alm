@@ -1,0 +1,10 @@
+---
+title: "VK5RDM MMDVM repeater"
+---
+
+The VK5RDM repeater is based on a Yaesu DR-1XE using an STM-DVM board with a Raspberry Pi running [Pi-Star](https://www.pistar.uk/) software.
+
+- Output Tx **439.850 MHz**
+- Input Rx **434.850 MHz** (no CTCSS)
+
+See the [VK5RDM Australian codeplugs page](vk5rdm-codeplugs.qmd) for Australia-wide codeplugs that include VK5RDM.

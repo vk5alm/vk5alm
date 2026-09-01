@@ -1,0 +1,5 @@
+---
+title: "Dual 2 m / 70 cm vertical antenna"
+---
+
+[Technical details for the 2 m / 70 cm dual-band vertical antenna (PDF)](../files/Dual_band_antenna_info_sheet2.pdf)

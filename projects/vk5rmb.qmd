@@ -1,0 +1,9 @@
+---
+title: "Splat diagrams for VK5RMB"
+---
+
+To use the Google Earth files, download the zip and install Google Earth. Opening the `.kml` file overlays repeater coverage so you can zoom in.
+
+![Regional coverage, 200 ft TX / 6 ft RX](../images/maps/vk5rmb-coverage.jpg){fig-alt="VK5RMB regional coverage plot" .cover-map}
+
+- [Google Earth files for VK5RMB](../files/vk5rmb.zip)

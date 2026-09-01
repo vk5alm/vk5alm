@@ -1,0 +1,15 @@
+---
+title: "VK5RDM Australian codeplugs"
+---
+
+These codeplugs are based on the [VK2KVP codeplugs](https://github.com/vk2kvp). Remember to update your callsign (Radio Name) and DMR ID (Radio ID) in the General Settings section of your codeplug editor.
+
+### MD380
+
+1. [VK5RDM MD380 Australian codeplug](../files/md380_all_au_dmranalogcb_v17nodmrid.rdt) (1.34 MD380 Prog., firmware MD380 Tools 2018-02-08)
+
+### GD77
+
+*(No file was published on the original page.)*
+
+Codeplugs provided by LMARC are for illustrative purposes only. This software is supplied "AS IS" without warranties or support. LMARC assumes no responsibility or liability for use of the codeplugs and conveys no licence or title under any patent, copyright, or mask work right. LMARC reserves the right to make changes without notification, and makes no representation that the codeplugs will be suitable for a specified use without further testing or modification.

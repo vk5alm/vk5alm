@@ -1,0 +1,31 @@
+/* Lower Murray Radio Club — simple red banner look */
+.navbar {
+  border-bottom: 4px solid #8b1a12;
+}
+
+.navbar-title {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+#title-block-header h1.title {
+  color: #222;
+}
+
+.callout-repeater {
+  border-left: 4px solid #b42318;
+}
+
+.club-map iframe {
+  width: 100%;
+  max-width: 640px;
+  height: 420px;
+  border: 0;
+}
+
+img.cover-map {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+}

@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Lower Murray Radio Club"
+  description: "VK5ALM — Lower Murray Amateur Radio Club, Murray Bridge, South Australia"
+  navbar:
+    background: "#b42318"
+    foreground: white
+    left:
+      - text: Home
+        href: index.qmd
+      - text: News
+        href: news.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: Events
+        href: events.qmd
+      - text: History
+        href: history.qmd
+      - text: Ham News
+        href: ham-news.qmd
+  sidebar:
+    style: docked
+    background: light
+    contents:
+      - section: "On air"
+        contents:
+          - text: "VK5RDM repeater"
+            href: projects/vk5rdm.qmd
+          - text: "VK5RMB coverage"
+            href: projects/vk5rmb.qmd
+      - section: "Club"
+        contents:
+          - news.qmd
+          - history.qmd
+          - events.qmd
+  page-footer:
+    left: "2026 — Lower Murray Radio Club (VK5ALM)"
+    right: "Converted from the GetSimple site at vk5alm.duckdns.org"
+  search: true
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    link-external-newwindow: true
+    html-math-method: katex
+    include-in-header:
+      text: |
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📡</text></svg>">

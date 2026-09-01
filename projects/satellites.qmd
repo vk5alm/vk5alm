@@ -1,0 +1,11 @@
+---
+title: "Amateur satellite predictions"
+---
+
+Live pass predictions (embedded from AMSAT Argentina):
+
+```{=html}
+<iframe src="https://amsat.org.ar/pass.htm" width="100%" height="700" style="border:0"></iframe>
+```
+
+Thanks to [amsat.org.ar](http://amsat.org.ar/pass.htm).

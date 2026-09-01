@@ -1,0 +1,30 @@
+---
+title: "Digital ham radio"
+---
+
+## DMR
+
+- [Introduction to DMR](https://www.dmrfordummies.com/)
+- [TYT MD380 review](http://www.eham.net/reviews/detail/12544)
+- [MD380 tools / mods](http://md380.tools)
+- [Listen to DMR without a radio (BrandMeister hose)](http://hose.brandmeister.network)
+- [Register for a DMR ID](https://www.radioid.net/register#!)
+- [BrandMeister network](https://brandmeister.network/#)
+- [BrandMeister talkgroup activity](https://app.brandmeisteractivity.live/)
+- Club repeater: [VK5RDM MMDVM](vk5rdm.qmd) and [codeplugs](vk5rdm-codeplugs.qmd)
+
+## P25
+
+- [Introduction to P25](https://en.wikipedia.org/wiki/Project_25)
+- [OP25 project](http://osmocom.org/projects/op25/wiki)
+
+## NXDN
+
+- [What is NXDN?](https://ctnxdn.wordpress.com/what-is-nxdn-all-about/)
+
+## Hotspots
+
+- [SharkRF openSPOT](https://www.sharkrf.com/products/openspot/)
+- [DV-MEGA](http://www.dvmega.auria.nl)
+
+The original page also linked several club-hosted PDFs (DMR guide, parrot setup, Astro/P25 notes, Tait T2000 wiring). Those files were not copied in full here; they can be pulled later from the live host if still needed.

@@ -1,0 +1,17 @@
+---
+title: "New 2 metre repeater using AllStarLink"
+---
+
+## AllStarLink notes
+
+- AllStarLink has added features that make it easier to connect to remote repeaters and hubs. [allstarlink.org](https://www.allstarlink.org/)
+- Compact AllStar nodes using a Raspberry Pi are a common way to stand up a personal repeater link. [EMDRC how-to](https://www.emdrc.com.au/all-star-how-to-do-it/)
+- The West Australian Repeater Group has published AllStar how-to guides. [WARG](https://www.warg.org.au/how-to-guides/)
+
+## Coverage maps for possible VK5RLM sites
+
+Splat coverage plots for a proposed 2-metre repeater:
+
+- [Clubhouse location](maps-clubhouse.qmd)
+- [White Hill](maps-white-hill.qmd)
+- [Gifford Hill](maps-gifford-hill.qmd)
