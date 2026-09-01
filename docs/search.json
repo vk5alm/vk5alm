@@ -145,7 +145,19 @@
     "href": "events.html",
     "title": "Calendar and events",
     "section": "",
-    "text": "The original Events page on the GetSimple site had no published body text (only a page date of 9 August 2017).\nStanding club meetings are listed on the home page:\n\nSecond and fourth Wednesday of each month\n7:00 p.m.\nCombined Clubs, Johnstone Park, 12 Thomas Street, Murray Bridge\n\nWhen the next show stand, field day or foxhunt is booked, add it here.",
+    "text": "The Lower Murray Radio Club meets at 7:00 p.m. on the second and fourth Wednesdays of each month.\nWhere: Combined Clubs, Johnstone Park, 12 Thomas Street, Murray Bridge.\nAnyone interested in radio communications is welcome.",
+    "crumbs": [
+      "Home",
+      "Club",
+      "Calendar and events"
+    ]
+  },
+  {
+    "objectID": "events.html#regular-meetings",
+    "href": "events.html#regular-meetings",
+    "title": "Calendar and events",
+    "section": "",
+    "text": "The Lower Murray Radio Club meets at 7:00 p.m. on the second and fourth Wednesdays of each month.\nWhere: Combined Clubs, Johnstone Park, 12 Thomas Street, Murray Bridge.\nAnyone interested in radio communications is welcome.",
     "crumbs": [
       "Home",
       "Club",
@@ -259,11 +271,11 @@
     "text": "Our Radio club (which is affiliated with the Adelaide Hills Amateur Radio Society) meets at 7:00 p.m. on the second and fourth Wednesdays each month at the “Combined clubs” in Johnstone Park, Murray Bridge.\nThe entrance to Johnstone Park, which houses our club rooms, is at 12 Thomas Street, Murray Bridge. Anyone with an interest in radio communications is welcome.\nWe look forward to seeing you there!"
   },
   {
-    "objectID": "index.html#vk5rdm-repeater",
-    "href": "index.html#vk5rdm-repeater",
+    "objectID": "index.html#vk5rdm-repeater-will-be-back-soon-now-internet-access-is-restored.",
+    "href": "index.html#vk5rdm-repeater-will-be-back-soon-now-internet-access-is-restored.",
     "title": "Radio Club meeting times, all are welcome!",
-    "section": "VK5RDM Repeater",
-    "text": "VK5RDM Repeater\n\nOutput Tx 439.850 MHz\nInput Rx 434.850 MHz (No CTCSS tone)\n\nSee the VK5RDM MMDVM page for hardware notes and codeplugs."
+    "section": "VK5RDM Repeater will be back soon now Internet access is restored.",
+    "text": "VK5RDM Repeater will be back soon now Internet access is restored.\n\nOutput Tx 439.850 MHz\nInput Rx 434.850 MHz (No CTCSS tone)\n\nSee the VK5RDM MMDVM page for hardware notes and codeplugs."
   },
   {
     "objectID": "index.html#support-the-wireless-institute-of-australia",
@@ -278,40 +290,5 @@
     "title": "VK5ALM radio club celebrates 100 years",
     "section": "",
     "text": "The club marked its centenary and was featured in local news:\nhttps://www.murraybridge.news/p/lower-murray-amateur-radio-club-celebrates"
-  },
-  {
-    "objectID": "index.html#vk5rdm-repeater-offline-but-internet-access-is-now-restored.",
-    "href": "index.html#vk5rdm-repeater-offline-but-internet-access-is-now-restored.",
-    "title": "Radio Club meeting times, all are welcome!",
-    "section": "VK5RDM Repeater Offline but Internet access is now restored.",
-    "text": "VK5RDM Repeater Offline but Internet access is now restored.\n\nOutput Tx 439.850 MHz\nInput Rx 434.850 MHz (No CTCSS tone)\n\nSee the VK5RDM MMDVM page for hardware notes and codeplugs."
-  },
-  {
-    "objectID": "index.html#vk5rdm-repeater-back-soon-now-.",
-    "href": "index.html#vk5rdm-repeater-back-soon-now-.",
-    "title": "Radio Club meeting times, all are welcome!",
-    "section": "VK5RDM Repeater back soon now .",
-    "text": "VK5RDM Repeater back soon now .\n\nOutput Tx 439.850 MHz\nInput Rx 434.850 MHz (No CTCSS tone)\n\nSee the VK5RDM MMDVM page for hardware notes and codeplugs."
-  },
-  {
-    "objectID": "index.html#vk5rdm-repeater-back-soon-now-interne.",
-    "href": "index.html#vk5rdm-repeater-back-soon-now-interne.",
-    "title": "Radio Club meeting times, all are welcome!",
-    "section": "VK5RDM Repeater back soon now Interne.",
-    "text": "VK5RDM Repeater back soon now Interne.\n\nOutput Tx 439.850 MHz\nInput Rx 434.850 MHz (No CTCSS tone)\n\nSee the VK5RDM MMDVM page for hardware notes and codeplugs."
-  },
-  {
-    "objectID": "index.html#vk5rdm-repeater-back-soon-now-internet-access-restored.",
-    "href": "index.html#vk5rdm-repeater-back-soon-now-internet-access-restored.",
-    "title": "Radio Club meeting times, all are welcome!",
-    "section": "VK5RDM Repeater back soon now Internet access restored.",
-    "text": "VK5RDM Repeater back soon now Internet access restored.\n\nOutput Tx 439.850 MHz\nInput Rx 434.850 MHz (No CTCSS tone)\n\nSee the VK5RDM MMDVM page for hardware notes and codeplugs."
-  },
-  {
-    "objectID": "index.html#vk5rdm-repeater-will-be-back-soon-now-internet-access-is-restored.",
-    "href": "index.html#vk5rdm-repeater-will-be-back-soon-now-internet-access-is-restored.",
-    "title": "Radio Club meeting times, all are welcome!",
-    "section": "VK5RDM Repeater will be back soon now Internet access is restored.",
-    "text": "VK5RDM Repeater will be back soon now Internet access is restored.\n\nOutput Tx 439.850 MHz\nInput Rx 434.850 MHz (No CTCSS tone)\n\nSee the VK5RDM MMDVM page for hardware notes and codeplugs."
   }
 ]

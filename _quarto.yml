@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - events.json
 
 website:
   title: "Lower Murray Radio Club"
