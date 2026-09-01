@@ -29,3 +29,43 @@ img.cover-map {
   height: auto;
   border: 1px solid #ddd;
 }
+
+#calendar {
+  margin: 1.5rem 0 2rem;
+  background: #fff;
+  padding: 0.75rem;
+  border: 1px solid #e2e2e2;
+}
+
+#calendar .fc-toolbar-title {
+  font-size: 1.25rem;
+}
+
+#calendar .fc-event {
+  background-color: #b42318;
+  border-color: #8b1a12;
+  cursor: pointer;
+}
+
+#calendar .fc-button-primary {
+  background-color: #b42318;
+  border-color: #8b1a12;
+}
+
+#calendar .fc-button-primary:hover,
+#calendar .fc-button-primary:not(:disabled).fc-button-active {
+  background-color: #8b1a12;
+  border-color: #6e140e;
+}
+
+
+#calendar .fc-event,
+#calendar .fc-event-main,
+#calendar .fc-event-title,
+#calendar .fc-event-time,
+#calendar .fc-list-event-title,
+#calendar .fc-list-event-time,
+#calendar a.fc-event,
+#calendar a.fc-event:visited {
+  color: #fff !important;
+}

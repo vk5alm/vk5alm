@@ -73,13 +73,13 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📡</text></svg>">
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.17/index.global.min.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed quarto-light">
+<body class="nav-sidebar docked nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -200,9 +200,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -225,16 +223,102 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The original Events page on the GetSimple site had no published body text (only a page date of 9 August 2017).</p>
-<p>Standing club meetings are listed on the <a href="./index.html">home page</a>:</p>
-<ul>
-<li><strong>Second and fourth Wednesday</strong> of each month</li>
-<li><strong>7:00 p.m.</strong></li>
-<li>Combined Clubs, Johnstone Park, <strong>12 Thomas Street, Murray Bridge</strong></li>
-</ul>
-<p>When the next show stand, field day or foxhunt is booked, add it here.</p>
+<section id="regular-meetings" class="level2">
+<h2 class="anchored" data-anchor-id="regular-meetings">Regular meetings</h2>
+<p>The Lower Murray Radio Club meets at <strong>7:00 p.m. on the second and fourth Wednesdays</strong> of each month.</p>
+<p><strong>Where:</strong> Combined Clubs, Johnstone Park, 12 Thomas Street, Murray Bridge.</p>
+<p>Anyone interested in radio communications is welcome.</p>
+<div id="calendar">
+
+</div>
+<script>
+function pad(n) {
+  return String(n).padStart(2, "0");
+}
+
+function ymd(d) {
+  return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate());
+}
+
+function secondAndFourthWednesdays(fromYear, toYear) {
+  const meetings = [];
+  const place = "Combined Clubs, Johnstone Park, 12 Thomas Street, Murray Bridge";
+
+  for (let year = fromYear; year <= toYear; year++) {
+    for (let month = 0; month < 12; month++) {
+      const wednesdays = [];
+      const day = new Date(year, month, 1);
+      while (day.getMonth() === month) {
+        if (day.getDay() === 3) {
+          wednesdays.push(new Date(day.getFullYear(), day.getMonth(), day.getDate()));
+        }
+        day.setDate(day.getDate() + 1);
+      }
+
+      [1, 3].forEach(function (index) {
+        if (!wednesdays[index]) return;
+        const date = ymd(wednesdays[index]);
+        meetings.push({
+          title: "Club meeting",
+          start: date + "T19:00:00",
+          end: date + "T21:00:00",
+          extendedProps: {
+            place: place,
+            when: date + " 7:00 p.m. Adelaide"
+          }
+        });
+      });
+    }
+  }
+  return meetings;
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  const el = document.getElementById("calendar");
+  if (!el || typeof FullCalendar === "undefined") return;
+
+  const calendar = new FullCalendar.Calendar(el, {
+    initialView: "listMonth",
+    timeZone: "Australia/Adelaide",
+    height: "auto",
+    firstDay: 1,
+    headerToolbar: {
+      left: "prev,next today",
+      center: "title",
+      right: "dayGridMonth,listMonth"
+    },
+    eventTimeFormat: {
+      hour: "numeric",
+      minute: "2-digit",
+      meridiem: "short"
+    },
+    events: function (info, successCallback, failureCallback) {
+      const recurring = secondAndFourthWednesdays(2026, 2035);
+      fetch("events.json")
+        .then(function (response) {
+          return response.ok ? response.json() : [];
+        })
+        .then(function (extra) {
+          successCallback(recurring.concat(Array.isArray(extra) ? extra : []));
+        })
+        .catch(function () {
+          successCallback(recurring);
+        });
+    },
+    eventClick: function (info) {
+      info.jsEvent.preventDefault();
+      const extra = info.event.extendedProps || {};
+      const place = extra.place || "Johnstone Park, Murray Bridge";
+      const when = extra.when || (info.event.startStr || "").replace("T", " ").replace(/[+-]\d\d:\d\d$/, "").replace("Z", "");
+      alert(info.event.title + "\n" + when + "\n" + place);
+    }
+  });
+  calendar.render();
+});
+</script>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
