@@ -72,7 +72,7 @@
     "href": "projects/tec.html",
     "title": "Global Total Electron Count (TEC) maps",
     "section": "",
-    "text": "The original site used a GetSimple plugin ({% GetTEC %}) that injected live maps. Those maps are public:\n\nAustralia / Bureau-related ionosphere products: SWS ionospheric map\nUS / NASA Global TEC: NASA CDDIS GNSS TEC\n\nRefresh those pages for the latest plot. The original note was that the Australian upper TEC map updated about every 60 minutes and the US map about every 5 minutes."
+    "text": "Australia / Bureau-related ionosphere products: SWS ionospheric map\nUS / NASA Global TEC: NASA CDDIS GNSS TEC"
   },
   {
     "objectID": "projects/dmr.html",
@@ -136,9 +136,30 @@
   {
     "objectID": "ham-news.html",
     "href": "ham-news.html",
-    "title": "Tech ham news",
+    "title": "Ham news",
     "section": "",
-    "text": "JS8Call expands weak-signal messaging capabilities\nJS8Call continues to evolve, offering enhanced weak-signal keyboard-to-keyboard messaging for HF operators. js8call.com\nWSJT-X update brings new FT8 enhancements\nRefinements to FT8 and other digital modes. WSJT-X\nFCC removes baud rate limits for HF digital modes\nA US ruling eliminates baud-rate restrictions on HF while keeping a 2.8 kHz bandwidth limit. ARRL\nVK DMR network announces a major software transition\nMoving away from IPSC2 toward a system intended to be more independent of overseas servers. vkdmr.com\nBrandMeister DMR updates radio ID policies\nStricter compliance with international radio ID standards. BrandMeister news\nBTECH introduces satellite functionality in DMR radios\nFirmware updates for the DMR-6X2 series. BTECH\nInnovAntennas releases new low-noise Yagi designs\ninnovantennas.com\nHorizon Antennas Australia expands custom antenna offerings\nhorizonantennasaustralia.com.au\nRT Innovations introduces a tower-mounted antenna lift system\nFor Rohn towers. rtinnovations.net"
+    "text": "Headlines are pulled automatically from public RSS feeds. Last fetched 2026-09-01 06:48 UTC. Follow the link for the full story.\nClub items stay on the News page. WIA national news: wia.org.au."
+  },
+  {
+    "objectID": "ham-news.html#this-week-in-amateur-radio",
+    "href": "ham-news.html#this-week-in-amateur-radio",
+    "title": "Ham news",
+    "section": "This Week in Amateur Radio",
+    "text": "This Week in Amateur Radio\n\n2026-08-31 — via Hackaday: Scanning for Lifesigns with ESP32 and Raspberry Pi It’s a sci-fi trope that you can ‘scan for life signs’ and detect if there…\n2026-08-30 — via Hackaday: Radio Shack Toy Returns to Life [The Modern Rouge] found an old childhood friend in a closet: a Radio Shack 200-in-1…\n2026-08-30 — via Amateur Radio Daily: Zero Retries Digital Conference (ZRDC) 2026 to Bring Amateur Radio Technology and Innovation to San Ramon The following is a press release from Zero Retries Digital Conference: SAN RAMON, Calif. —…\n2026-08-29 — via the ARRL: The ARRL EME Contest Read more at ARRL.org\n2026-08-29 — via Hackaday: r-Selecting Tiny Probes to Shotgun Into Saturn’s Rings In ecology, there used to be a concept — now largely unfashionable — that species…\n2026-08-29 — via Hackaday: How Packaging Can Kill An Electronics Microbusiness Quite a few in our community make a bit of cash on the side by…\n2026-08-29 — via the ARRL: Radio, Learning, and Community at the 2026 ARRL National Convention and Huntsville Hamfest Read more at ARRL.org\n2026-08-29 — via the ARRL: The ARRL Solar Update Read more at ARRL.org"
+  },
+  {
+    "objectID": "ham-news.html#arrl-news",
+    "href": "ham-news.html#arrl-news",
+    "title": "Ham news",
+    "section": "ARRL News",
+    "text": "ARRL News\n\n2026-08-31 — Candidates Named for ARRL Director and Vice Director Elections ARRL The National Association for Amateur Radio® has announced that the candidates for the 2026 ARRL Division elections are now official. ARRL members will choose between two candidates for Director in the Delta, Great Lakes, and Midwest Divisions, and two candidates for Vice…\n2026-08-28 — The ARRL Solar Update Solar activity reached moderate levels this week. Region 4513 was responsible for an M2.2/1B flare that reached its peak on August 26. This event was accompanied by a 10.7-centimeter radio burst that reached 140 solar flux units (SFU) and a type II radio sweep with an estimated…\n2026-08-28 — The ARRL EME Contest\n2026-08-28 — Radio, Learning, and Community at the 2026 ARRL National Convention and Huntsville Hamfest\n2026-08-21 — Entrepreneur and Amateur Radio Operator Invests in the Next Generation of Problem Solvers ARRL The National Association for Amateur Radio® announced today a historic and transformational $1 million gift from Dr. James M. Galm, W8WTS. An entrepreneur and amateur radio operator who spent his career solving complex energy and engineering challenges, Galm is now…\n2026-08-18 — Kopernik Observatory Seeks Amateur Radio Operators to Track August 19 Balloon Flight Amateur radio operators in western New York and other northeastern states have an opportunity to help track an educational balloon. Drew Deskur, KA1M, Director of the Kopernik Observatory, a public observatory and informal STEM education center in Vestal, New York, said the…\n2026-08-17 — The ARRL Solar Update Weekly Highlights and Forecast, August 17, 2026, by NOAA Space Weather Prediction Center: Solar activity ranged from very low to low levels throughout the period. No R1 (Minor) or greater events were observed. The largest flare was a C8.2/Sn at 16/1928 UTC from Region 4506. An…\n2026-08-14 — Colombian Amateurs Help in Earthquake Response; Clear Frequencies Requested ARRL The National Association for Amateur Radio® reports that amateur radio operators in Colombia are providing significant communications support following the major earthquake and aftershocks that struck the country on August 10, 2026. The death toll has reportedly exceeded…"
+  },
+  {
+    "objectID": "ham-news.html#amateur-radio-newsline",
+    "href": "ham-news.html#amateur-radio-newsline",
+    "title": "Ham news",
+    "section": "Amateur Radio Newsline",
+    "text": "Amateur Radio Newsline\n\n2026-08-27 — Amateur Radio Newsline Report 2548 for Friday, August 28th, 2026\n\nAMATEURS RECALL 9/11 TERROR ATTACKS ON 25th ANNIVERSARY - AST SPACEMOBILE’S TESTS ON 800 MHz END ON SEPT. 12 - GRANT WILL FUND PENNSYLVANIA STUDENT CLUB’S EXPANSION - SOUTH AFRICAN REGULATOR TRACKS REPEATER INTERFERENCE - COUNCIL DENIES SCOTTISH AMATEUR’S REQUEST FOR MAST -…\n\n2026-08-20 — Amateur Radio Newsline Report 2547 for Friday, August 21st, 2026\n\nSWEEPING REVIEW PLANNED FOR FRENCH POTA DESIGNATIONS - RHODE ISLAND POTA ENTHUSIASTS PLAN ‘ACTIVATION-A-THON’ - ACTIVATOR LIST GROWS FOR CHURCHES AND CHAPELS EVENT - DXPEDITIONERS SHARE PREVIEW OF CAMBODIA 2027 - CHRISTMAS ISLAND YOUTH DXPEDITION GETS GRANT - TIME RUNS OUT FOR…\n\n2026-08-13 — Amateur Radio Newsline Report 2546 for Friday, August 14th, 2026\n\nAMATEUR RADIO RESPONDS TO COLOMBIAN EARTHQUAKE - FCC CHARGES GMRS NETWORK FOUNDER WITH VIOLATIONS - ‘FOUR DAYS IN AUGUST’ RETURNS TO HUNTSVILLE - CUBESAT RECEIVES CANADA’S FIRST OSCAR DESIGNATION - SILENT KEY: AUTHOR, ANTENNA INNOVATOR JOHN PORTUNE, W6NBC - PENNSYLVANIA…\n\n2026-08-06 — Amateur Radio Newsline Report 2545 for Friday, August 7th, 2026\n\nSPACE STATION LOGS HISTORIC FIRST ARISS CONTACT WITH KENYA - HAM STATION HONORS BRAZILIAN PRIEST AS RADIO PIONEER - SCHOOL FOR DEAF IN PAKISTAN HOSTS EMERGENCY RADIO TRAINING - TEN-YEAR-OLD YL CELEBRATES CQ DX MARATHON CHAMPIONSHIP - RADIO D A R C MARKS 600TH EPISODE -…\n\n\n\nSources: TWIAR, ARRL, Amateur Radio Newsline."
   },
   {
     "objectID": "events.html",
@@ -176,7 +197,7 @@
     "href": "projects/t2fd.html",
     "title": "T2FD antenna — the low-noise marvel",
     "section": "",
-    "text": "The low-noise antenna for a high-noise environment.\n\nComparison of T2FD with Carolina Windom (YouTube)\n\nThe original page also hosted several PDFs (modelling notes, TFD/T2FD papers, ALE antennas, TC2M HF vertical). Those remain on the live GetSimple host under data/uploads/projects/antenna/."
+    "text": "The low-noise antenna for a high-noise environment.\n\nComparison of T2FD with Carolina Windom (YouTube)"
   },
   {
     "objectID": "projects/electromagnetic-areopagus.html",
