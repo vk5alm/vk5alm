@@ -13,7 +13,7 @@ We look forward to seeing you there!
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7834460377594!2d139.26287895615334!3d-35.12580215563995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab70cb81ff269cf%3A0x7eb5224d6d526dcf!2s12+Thomas+St%2C+Murray+Bridge+SA+5253!5e0!3m2!1sen!2sau!4v1480036568644" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 :::
 
-## VK5RDM Repeater
+## VK5RDM Repeater will be back soon now Internet access is restored.
 
 - Output Tx **439.850 MHz**
 - Input Rx **434.850 MHz** (No CTCSS tone)
