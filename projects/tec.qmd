@@ -2,9 +2,7 @@
 title: "Global Total Electron Count (TEC) maps"
 ---
 
-The original site used a GetSimple plugin (`{% GetTEC %}`) that injected live maps. Those maps are public:
-
 - Australia / Bureau-related ionosphere products: [SWS ionospheric map](https://www.sws.bom.gov.au/Satellite/2/1)
 - US / NASA Global TEC: [NASA CDDIS GNSS TEC](https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/atmospheric_products.html)
 
-Refresh those pages for the latest plot. The original note was that the Australian upper TEC map updated about every 60 minutes and the US map about every 5 minutes.
+

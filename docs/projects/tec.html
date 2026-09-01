@@ -225,12 +225,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The original site used a GetSimple plugin (<code>{% GetTEC %}</code>) that injected live maps. Those maps are public:</p>
 <ul>
 <li>Australia / Bureau-related ionosphere products: <a href="https://www.sws.bom.gov.au/Satellite/2/1">SWS ionospheric map</a></li>
 <li>US / NASA Global TEC: <a href="https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/atmospheric_products.html">NASA CDDIS GNSS TEC</a></li>
 </ul>
-<p>Refresh those pages for the latest plot. The original note was that the Australian upper TEC map updated about every 60 minutes and the US map about every 5 minutes.</p>
 
 
 
@@ -308,7 +306,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/vk5alm\.github\.io\/vk5alm\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

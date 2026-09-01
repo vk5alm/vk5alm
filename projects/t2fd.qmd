@@ -6,4 +6,3 @@ The low-noise antenna for a high-noise environment.
 
 - [Comparison of T2FD with Carolina Windom (YouTube)](https://www.youtube.com/watch?v=Z8Qd1-wCJjE)
 
-The original page also hosted several PDFs (modelling notes, TFD/T2FD papers, ALE antennas, TC2M HF vertical). Those remain on the live GetSimple host under `data/uploads/projects/antenna/`.

@@ -15,7 +15,7 @@ title: "Projects"
 ## Amateur radio data pages
 
 - [Global Total Electron Count (TEC) maps](projects/tec.qmd)
-- [SDR Academy](http://sdra.io)
+- [SDR Academy](http://2026.sdra.io)
 
 ## Other
 

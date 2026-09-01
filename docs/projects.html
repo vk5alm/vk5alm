@@ -249,7 +249,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="amateur-radio-data-pages">Amateur radio data pages</h2>
 <ul>
 <li><a href="./projects/tec.html">Global Total Electron Count (TEC) maps</a></li>
-<li><a href="http://sdra.io">SDR Academy</a></li>
+<li><a href="http://2026.sdra.io">SDR Academy</a></li>
 </ul>
 </section>
 <section id="other" class="level2">
@@ -335,7 +335,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/vk5alm\.github\.io\/vk5alm\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
