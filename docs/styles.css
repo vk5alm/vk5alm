@@ -1,3 +1,7 @@
+
+### `styles.css`
+
+```css
 /* Lower Murray Radio Club — simple red banner look */
 .navbar {
   border-bottom: 4px solid #8b1a12;
@@ -58,7 +62,6 @@ img.cover-map {
   border-color: #6e140e;
 }
 
-
 #calendar .fc-event,
 #calendar .fc-event-main,
 #calendar .fc-event-title,
@@ -69,3 +72,78 @@ img.cover-map {
 #calendar a.fc-event:visited {
   color: #fff !important;
 }
+
+.home-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 2rem;
+  align-items: start;
+}
+
+.home-events {
+  border-left: 1px solid #e2e2e2;
+  padding-left: 1.25rem;
+}
+
+.home-events h2 {
+  font-size: 1.15rem;
+  margin-top: 0;
+}
+
+.upcoming-item {
+  display: grid;
+  grid-template-columns: 3.2rem 1fr;
+  gap: 0.7rem;
+  margin: 0 0 1.15rem;
+}
+
+.upcoming-mon {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  color: #666;
+  text-transform: uppercase;
+}
+
+.upcoming-day {
+  display: block;
+  font-size: 1.6rem;
+  line-height: 1;
+  font-weight: 700;
+  color: #b42318;
+}
+
+.upcoming-when {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.upcoming-weekday {
+  font-weight: 700;
+}
+
+.upcoming-title {
+  font-weight: 600;
+}
+
+.upcoming-place {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .home-layout {
+    grid-template-columns: 1fr;
+  }
+  .home-events {
+    border-left: 0;
+    border-top: 1px solid #e2e2e2;
+    padding-left: 0;
+    padding-top: 1rem;
+  }
+}
+```
+
+Downloads:  
+<grok-card data-id="OQobC" data-type="rendered_file_card" data-plain-type="render_file" ></grok-card>
+<grok-card data-id="Iya63" data-type="rendered_file_card" data-plain-type="render_file" ></grok-card>

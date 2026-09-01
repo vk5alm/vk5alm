@@ -277,7 +277,7 @@
     "href": "index.html",
     "title": "Radio Club meeting times, all are welcome!",
     "section": "",
-    "text": "Our Radio club (which is affiliated with the Adelaide Hills Amateur Radio Society) meets at 7:00 p.m. on the second and fourth Wednesdays each month at the “Combined clubs” in Johnstone Park, Murray Bridge.\nThe entrance to Johnstone Park, which houses our club rooms, is at 12 Thomas Street, Murray Bridge. Anyone with an interest in radio communications is welcome.\nWe look forward to seeing you there!"
+    "text": "Our Radio club (which is affiliated with the Adelaide Hills Amateur Radio Society) meets at 7:00 p.m. on the second and fourth Wednesdays each month at the “Combined clubs” in Johnstone Park, Murray Bridge.\nThe entrance to Johnstone Park, which houses our club rooms, is at 12 Thomas Street, Murray Bridge. Anyone with an interest in radio communications is welcome.\nWe look forward to seeing you there!\n\n\n\n\n\n\n\nOutput Tx 439.850 MHz\nInput Rx 434.850 MHz (No CTCSS tone)\n\nSee the VK5RDM MMDVM page for hardware notes and codeplugs.\n\n\n\n\nAmateur Radio magazine\nAdvancing and protecting our licence privileges\nProtecting our radio spectrum\nNational ham radio news service\nTechnical reference material for hams\n\nVisit the WIA\nThis club is affiliated with AHARS.\n\n\n\n\n\n\nLoading club nights…\n\n\nFull calendar"
   },
   {
     "objectID": "index.html#vk5rdm-repeater-will-be-back-soon-now-internet-access-is-restored.",
@@ -290,8 +290,8 @@
     "objectID": "index.html#support-the-wireless-institute-of-australia",
     "href": "index.html#support-the-wireless-institute-of-australia",
     "title": "Radio Club meeting times, all are welcome!",
-    "section": "Support the Wireless Institute of Australia",
-    "text": "Support the Wireless Institute of Australia\n\nAmateur Radio magazine\nAdvancing and protecting our licence privileges\nProtecting our radio spectrum\nNational ham radio news service\nTechnical reference material for hams\n\nVisit the WIA\nThis club is affiliated with AHARS.\n\n\n\n\n\n\nNoteConverted site\n\n\n\nThis Quarto site was rebuilt from the live GetSimple pages at http://vk5alm.duckdns.org so the club can publish on GitHub Pages without a paid domain."
+    "section": "",
+    "text": "Amateur Radio magazine\nAdvancing and protecting our licence privileges\nProtecting our radio spectrum\nNational ham radio news service\nTechnical reference material for hams\n\nVisit the WIA\nThis club is affiliated with AHARS."
   },
   {
     "objectID": "news/100-years.html",
@@ -299,5 +299,19 @@
     "title": "VK5ALM radio club celebrates 100 years",
     "section": "",
     "text": "The club marked its centenary and was featured in local news:\nhttps://www.murraybridge.news/p/lower-murray-amateur-radio-club-celebrates"
+  },
+  {
+    "objectID": "index.html#vk5rdm-repeater",
+    "href": "index.html#vk5rdm-repeater",
+    "title": "Radio Club meeting times, all are welcome!",
+    "section": "",
+    "text": "Output Tx 439.850 MHz\nInput Rx 434.850 MHz (No CTCSS tone)\n\nSee the VK5RDM MMDVM page for hardware notes and codeplugs."
+  },
+  {
+    "objectID": "index.html#upcoming-events",
+    "href": "index.html#upcoming-events",
+    "title": "Radio Club meeting times, all are welcome!",
+    "section": "",
+    "text": "Loading club nights…\n\n\nFull calendar"
   }
 ]

@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed quarto-light">
+<body class="nav-sidebar docked nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -200,16 +200,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#vk5rdm-repeater-will-be-back-soon-now-internet-access-is-restored." id="toc-vk5rdm-repeater-will-be-back-soon-now-internet-access-is-restored." class="nav-link active" data-scroll-target="#vk5rdm-repeater-will-be-back-soon-now-internet-access-is-restored.">VK5RDM Repeater will be back soon now Internet access is restored.</a></li>
-  <li><a href="#support-the-wireless-institute-of-australia" id="toc-support-the-wireless-institute-of-australia" class="nav-link" data-scroll-target="#support-the-wireless-institute-of-australia">Support the Wireless Institute of Australia</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -233,6 +224,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="home-layout">
+<div class="home-main">
 <p>Our Radio club (which is affiliated with the Adelaide Hills Amateur Radio Society) meets at <strong>7:00 p.m. on the second and fourth Wednesdays</strong> each month at the “Combined clubs” in Johnstone Park, Murray Bridge.</p>
 <p>The entrance to Johnstone Park, which houses our club rooms, is at <strong>12 Thomas Street, Murray Bridge</strong>. Anyone with an interest in radio communications is welcome.</p>
 <p>We look forward to seeing you there!</p>
@@ -240,8 +233,8 @@ ul.task-list li input[type="checkbox"] {
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7834460377594!2d139.26287895615334!3d-35.12580215563995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab70cb81ff269cf%3A0x7eb5224d6d526dcf!2s12+Thomas+St%2C+Murray+Bridge+SA+5253!5e0!3m2!1sen!2sau!4v1480036568644" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
 </iframe>
 </div>
-<section id="vk5rdm-repeater-will-be-back-soon-now-internet-access-is-restored." class="level2">
-<h2 class="anchored" data-anchor-id="vk5rdm-repeater-will-be-back-soon-now-internet-access-is-restored.">VK5RDM Repeater will be back soon now Internet access is restored.</h2>
+<section id="vk5rdm-repeater" class="level2">
+<h2 class="anchored" data-anchor-id="vk5rdm-repeater">VK5RDM Repeater</h2>
 <ul>
 <li>Output Tx <strong>439.850 MHz</strong></li>
 <li>Input Rx <strong>434.850 MHz</strong> (No CTCSS tone)</li>
@@ -258,23 +251,143 @@ ul.task-list li input[type="checkbox"] {
 <li>Technical reference material for hams</li>
 </ul>
 <p><a href="https://www.wia.org.au">Visit the WIA</a></p>
-<p>This club is affiliated with <a href="https://www.ahars.com.au/">AHARS</a>.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Converted site
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This Quarto site was rebuilt from the live GetSimple pages at <a href="http://vk5alm.duckdns.org" class="uri">http://vk5alm.duckdns.org</a> so the club can publish on GitHub Pages without a paid domain.</p>
-</div>
-</div>
-
-
+<p>This club is affiliated with <a href="https://ahars.au/">AHARS</a>.</p>
 </section>
+</div>
+<section id="upcoming-events" class="level2 home-events">
+<h2 class="anchored" data-anchor-id="upcoming-events">Upcoming events</h2>
+<div id="upcoming-events">
+<p class="upcoming-fallback">
+Loading club nights…
+</p>
+</div>
+<p><a href="./events.html">Full calendar</a></p>
+</section>
+</div>
+<script>
+function pad(n) {
+  return String(n).padStart(2, "0");
+}
+
+function ymd(d) {
+  return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate());
+}
+
+function secondAndFourthWednesdays(fromYear, toYear) {
+  const meetings = [];
+  for (let year = fromYear; year <= toYear; year++) {
+    for (let month = 0; month < 12; month++) {
+      const wednesdays = [];
+      const day = new Date(year, month, 1);
+      while (day.getMonth() === month) {
+        if (day.getDay() === 3) {
+          wednesdays.push(new Date(day.getFullYear(), day.getMonth(), day.getDate()));
+        }
+        day.setDate(day.getDate() + 1);
+      }
+      [1, 3].forEach(function (index) {
+        if (!wednesdays[index]) return;
+        const date = ymd(wednesdays[index]);
+        meetings.push({
+          title: "Club meeting",
+          start: date + "T19:00:00",
+          end: date + "T21:00:00",
+          place: "Combined Clubs, Johnstone Park"
+        });
+      });
+    }
+  }
+  return meetings;
+}
+
+function parseStart(value) {
+  if (!value) return null;
+  const m = String(value).match(/^(\d{4})-(\d{2})-(\d{2})(?:T(\d{2}):(\d{2}))?/);
+  if (!m) return null;
+  return new Date(
+    Number(m[1]),
+    Number(m[2]) - 1,
+    Number(m[3]),
+    Number(m[4] || 0),
+    Number(m[5] || 0)
+  );
+}
+
+function formatTime(d) {
+  let h = d.getHours();
+  const min = d.getMinutes();
+  const ampm = h >= 12 ? "pm" : "am";
+  h = h % 12;
+  if (h === 0) h = 12;
+  return min ? h + ":" + pad(min) + " " + ampm : h + ":00 " + ampm;
+}
+
+function renderUpcoming(events) {
+  const root = document.getElementById("upcoming-events");
+  if (!root) return;
+  const now = new Date();
+  now.setHours(0, 0, 0, 0);
+  const upcoming = events
+    .map(function (ev) {
+      const start = parseStart(ev.start);
+      return start ? Object.assign({}, ev, { startDate: start }) : null;
+    })
+    .filter(function (ev) { return ev && ev.startDate >= now; })
+    .sort(function (a, b) { return a.startDate - b.startDate; })
+    .slice(0, 6);
+
+  if (!upcoming.length) {
+    root.innerHTML = "<p>No upcoming events listed.</p>";
+    return;
+  }
+
+  const months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  root.innerHTML = upcoming.map(function (ev) {
+    const d = ev.startDate;
+    const mon = months[d.getMonth()].toUpperCase();
+    const dayNum = d.getDate();
+    const weekday = days[d.getDay()];
+    const timed = String(ev.start).indexOf("T") !== -1;
+    const when = timed ? formatTime(d) + " Adelaide" : "All day";
+    const place = ev.place || (ev.extendedProps && ev.extendedProps.place) || "";
+    return (
+      '<article class="upcoming-item">' +
+        '<div class="upcoming-date">' +
+          '<span class="upcoming-mon">' + mon + "</span>" +
+          '<span class="upcoming-day">' + dayNum + "</span>" +
+        "</div>" +
+        '<div class="upcoming-body">' +
+          '<div class="upcoming-when">' + when + "</div>" +
+          '<div class="upcoming-weekday">' + weekday + "</div>" +
+          '<div class="upcoming-title">' + ev.title + "</div>" +
+          (place ? '<div class="upcoming-place">' + place + "</div>" : "") +
+        "</div>" +
+      "</article>"
+    );
+  }).join("");
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  const recurring = secondAndFourthWednesdays(2026, 2035);
+  fetch("events.json")
+    .then(function (response) { return response.ok ? response.json() : []; })
+    .then(function (extra) {
+      const extras = (Array.isArray(extra) ? extra : []).map(function (ev) {
+        return {
+          title: ev.title || "Club event",
+          start: ev.start,
+          end: ev.end,
+          place: ev.extendedProps && ev.extendedProps.place
+        };
+      });
+      renderUpcoming(recurring.concat(extras));
+    })
+    .catch(function () { renderUpcoming(recurring); });
+});
+</script>
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
