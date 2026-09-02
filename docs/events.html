@@ -264,7 +264,7 @@ function secondAndFourthWednesdays(fromYear, toYear) {
           end: date + "T21:00:00",
           extendedProps: {
             place: place,
-            when: date + " 7:00 p.m. Adelaide"
+            when: date + " 7:00 p.m. ACST"
           }
         });
       });
@@ -299,7 +299,16 @@ document.addEventListener("DOMContentLoaded", function () {
           return response.ok ? response.json() : [];
         })
         .then(function (extra) {
-          successCallback(recurring.concat(Array.isArray(extra) ? extra : []));
+          const extras = (Array.isArray(extra) ? extra : []).map(function (ev) {
+            const props = ev.extendedProps || {};
+            const url = ev.url || props.url ||
+              (ev.source === "wia" || props.source === "wia"
+                ? "https://www.wia.org.au/newsevents/events/"
+                : "");
+            if (url) ev.url = url;
+            return ev;
+          });
+          successCallback(recurring.concat(extras));
         })
         .catch(function () {
           successCallback(recurring);
@@ -308,6 +317,12 @@ document.addEventListener("DOMContentLoaded", function () {
     eventClick: function (info) {
       info.jsEvent.preventDefault();
       const extra = info.event.extendedProps || {};
+      const url = info.event.url || extra.url ||
+        (extra.source === "wia" ? "https://www.wia.org.au/newsevents/events/" : "");
+      if (url) {
+        window.open(url, "_blank", "noopener");
+        return;
+      }
       const place = extra.place || "Johnstone Park, Murray Bridge";
       const when = extra.when || (info.event.startStr || "").replace("T", " ").replace(/[+-]\d\d:\d\d$/, "").replace("Z", "");
       alert(info.event.title + "\n" + when + "\n" + place);
@@ -316,6 +331,7 @@ document.addEventListener("DOMContentLoaded", function () {
   calendar.render();
 });
 </script>
+<p>Club nights are generated automatically (2nd and 4th Wednesday, 7–9 p.m. ACST). Put <strong>extra</strong> events only in <code>events.json</code>.</p>
 
 
 </section>
