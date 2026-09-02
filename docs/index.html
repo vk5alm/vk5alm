@@ -233,8 +233,8 @@ ul.task-list li input[type="checkbox"] {
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7834460377594!2d139.26287895615334!3d-35.12580215563995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab70cb81ff269cf%3A0x7eb5224d6d526dcf!2s12+Thomas+St%2C+Murray+Bridge+SA+5253!5e0!3m2!1sen!2sau!4v1480036568644" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
 </iframe>
 </div>
-<section id="vk5rdm-repeater" class="level2">
-<h2 class="anchored" data-anchor-id="vk5rdm-repeater">VK5RDM Repeater</h2>
+<section id="vk5rdm-repeater-will-be-back-soon-now-internet-access-is-restored." class="level2">
+<h2 class="anchored" data-anchor-id="vk5rdm-repeater-will-be-back-soon-now-internet-access-is-restored.">VK5RDM Repeater will be back soon now Internet access is restored.</h2>
 <ul>
 <li>Output Tx <strong>439.850 MHz</strong></li>
 <li>Input Rx <strong>434.850 MHz</strong> (No CTCSS tone)</li>
@@ -349,7 +349,7 @@ function renderUpcoming(events) {
     const dayNum = d.getDate();
     const weekday = days[d.getDay()];
     const timed = String(ev.start).indexOf("T") !== -1;
-    const when = timed ? formatTime(d) + " Adelaide" : "All day";
+    const when = timed ? formatTime(d) + " ACST" : "All day";
     const place = ev.place || (ev.extendedProps && ev.extendedProps.place) || "";
     return (
       '<article class="upcoming-item">' +

@@ -1,0 +1,167 @@
+[
+  {
+    "title": "ARRL EME Contest",
+    "start": "2026-09-05T09:30:00",
+    "source": "wa7bnm",
+    "extendedProps": {
+      "place": "On air",
+      "when": "05 Sep 2026 9:30 AM ACST",
+      "source": "wa7bnm",
+      "url": "http://www.contestcalendar.com/contestdetails.php?ref=417"
+    },
+    "end": "2026-09-07T09:29:00"
+  },
+  {
+    "title": "All Asian DX Contest, Phone",
+    "start": "2026-09-05T09:30:00",
+    "source": "wa7bnm",
+    "extendedProps": {
+      "place": "On air",
+      "when": "05 Sep 2026 9:30 AM ACST",
+      "source": "wa7bnm",
+      "url": "http://www.contestcalendar.com/contestdetails.php?ref=102"
+    },
+    "end": "2026-09-07T09:29:00"
+  },
+  {
+    "title": "SARL Field Day Contest",
+    "start": "2026-09-05T17:30:00",
+    "source": "wa7bnm",
+    "extendedProps": {
+      "place": "On air",
+      "when": "05 Sep 2026 5:30 PM ACST",
+      "source": "wa7bnm",
+      "url": "http://www.contestcalendar.com/contestdetails.php?ref=186"
+    },
+    "end": "2026-09-06T19:30:00"
+  },
+  {
+    "title": "RSGB SSB Field Day",
+    "start": "2026-09-05T22:30:00",
+    "source": "wa7bnm",
+    "extendedProps": {
+      "place": "On air",
+      "when": "05 Sep 2026 10:30 PM ACST",
+      "source": "wa7bnm",
+      "url": "http://www.contestcalendar.com/contestdetails.php?ref=106"
+    },
+    "end": "2026-09-06T22:30:00"
+  },
+  {
+    "title": "IARU Region 1 Field Day, SSB",
+    "start": "2026-09-05T22:30:00",
+    "source": "wa7bnm",
+    "extendedProps": {
+      "place": "On air",
+      "when": "05 Sep 2026 10:30 PM ACST",
+      "source": "wa7bnm",
+      "url": "http://www.contestcalendar.com/contestdetails.php?ref=105"
+    },
+    "end": "2026-09-06T22:29:00"
+  },
+  {
+    "title": "IARU Region 1 145 MHz Contest",
+    "start": "2026-09-05T23:30:00",
+    "source": "wa7bnm",
+    "extendedProps": {
+      "place": "On air",
+      "when": "05 Sep 2026 11:30 PM ACST",
+      "source": "wa7bnm",
+      "url": "http://www.contestcalendar.com/contestdetails.php?ref=654"
+    },
+    "end": "2026-09-06T23:30:00"
+  },
+  {
+    "title": "WAE DX Contest, SSB",
+    "start": "2026-09-12T09:30:00",
+    "source": "wa7bnm",
+    "extendedProps": {
+      "place": "On air",
+      "when": "12 Sep 2026 9:30 AM ACST",
+      "source": "wa7bnm",
+      "url": "http://www.contestcalendar.com/contestdetails.php?ref=111"
+    },
+    "end": "2026-09-14T09:29:00"
+  },
+  {
+    "title": "ARRL September VHF Contest",
+    "start": "2026-09-13T03:30:00",
+    "source": "wa7bnm",
+    "extendedProps": {
+      "place": "On air",
+      "when": "13 Sep 2026 3:30 AM ACST",
+      "source": "wa7bnm",
+      "url": "http://www.contestcalendar.com/contestdetails.php?ref=113"
+    },
+    "end": "2026-09-14T12:30:00"
+  },
+  {
+    "title": "ARRL 10 GHz and Up Contest",
+    "start": "2026-09-19T18:30:00",
+    "source": "wa7bnm",
+    "extendedProps": {
+      "place": "On air",
+      "when": "19 Sep 2026 6:30 PM ACST",
+      "source": "wa7bnm",
+      "url": "http://www.contestcalendar.com/contestdetails.php?ref=88"
+    },
+    "end": "2026-09-21T17:29:00"
+  },
+  {
+    "title": "ARNSW Members Morning Meetup",
+    "start": "2026-09-27T08:00:00",
+    "source": "wia",
+    "extendedProps": {
+      "place": "On air",
+      "when": "27 Sep 2026 8:00 AM ACST",
+      "source": "wia"
+    },
+    "end": "2026-09-27T11:30:00"
+  },
+  {
+    "title": "2026 VKFF National Get Together",
+    "start": "2026-10-30T18:00:00",
+    "source": "wia",
+    "extendedProps": {
+      "place": "On air",
+      "when": "30 Oct 2026 6:00 PM ACDT",
+      "source": "wia"
+    },
+    "end": "2026-11-01T18:00:00"
+  },
+  {
+    "title": "Tassie Ham-E-Con Amateur Radio Conference",
+    "start": "2026-11-06T11:30:00",
+    "source": "wia",
+    "extendedProps": {
+      "place": "On air",
+      "when": "06 Nov 2026 11:30 AM ACDT",
+      "source": "wia",
+      "url": "https://www.reast.asn.au/news-events/tassie-ham-radio-conference/"
+    },
+    "end": "2026-11-08T11:30:00"
+  },
+  {
+    "title": "SPARC's Giant Car Boot Sale",
+    "start": "2026-11-15T09:30:00",
+    "source": "wia",
+    "extendedProps": {
+      "place": "On air",
+      "when": "15 Nov 2026 9:30 AM ACDT",
+      "source": "wia",
+      "url": "https://spare.asn.au"
+    },
+    "end": "2026-11-15T12:30:00"
+  },
+  {
+    "title": "Adelaide Amateur Radio & Electronics Car Boot Sale",
+    "start": "2026-11-21T10:00:00",
+    "source": "wia",
+    "extendedProps": {
+      "place": "On air",
+      "when": "21 Nov 2026 10:00 AM ACDT",
+      "source": "wia"
+    },
+    "end": "2026-11-21T14:00:00"
+  }
+]
