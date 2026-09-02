@@ -1,4 +1,4 @@
-/* Site chrome */
+/* Lower Murray Radio Club — simple red banner look */
 .navbar {
   border-bottom: 4px solid #8b1a12;
 }
@@ -11,6 +11,10 @@
 
 #title-block-header h1.title {
   color: #222;
+}
+
+.callout-repeater {
+  border-left: 4px solid #b42318;
 }
 
 .club-map iframe {
@@ -26,7 +30,6 @@ img.cover-map {
   border: 1px solid #ddd;
 }
 
-/* Events page — FullCalendar */
 #calendar {
   margin: 1.5rem 0 2rem;
   background: #fff;
@@ -65,7 +68,9 @@ img.cover-map {
 #calendar .fc-list-event,
 #calendar .fc-list-event a,
 #calendar .fc-list-event-title,
-#calendar .fc-list-event-time {
+#calendar .fc-list-event-time,
+#calendar .fc-list-event .fc-event-title,
+#calendar .fc-list-event .fc-event-time {
   color: #222 !important;
   background-color: transparent;
 }
@@ -80,7 +85,6 @@ img.cover-map {
   border-color: #b42318 !important;
 }
 
-/* Home page — upcoming column */
 .home-layout {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 280px;
@@ -121,48 +125,26 @@ img.cover-map {
   color: #b42318;
 }
 
+.upcoming-when {
+  font-size: 0.8rem;
+  color: #666;
+}
+
 .upcoming-weekday {
   font-weight: 700;
 }
 
-.upcoming-list {
-  list-style: none;
-  margin: 0.2rem 0 0;
-  padding: 0;
-}
-
-.upcoming-row {
-  display: grid;
-  grid-template-columns: 4.6rem minmax(0, 1fr);
-  gap: 0.35rem;
-  align-items: start;
-  margin: 0.2rem 0 0;
-}
-
-.upcoming-when {
-  font-size: 0.75rem;
-  color: #666;
-  line-height: 1.35;
-}
-
 .upcoming-title {
   font-weight: 600;
-  font-size: 0.9rem;
-  line-height: 1.35;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 100%;
 }
 
-a.upcoming-title {
-  display: block;
-  color: #b42318;
-  text-decoration: none;
-}
-
-a.upcoming-title:hover {
-  text-decoration: underline;
+.upcoming-place {
+  font-size: 0.85rem;
+  color: #555;
 }
 
 @media (max-width: 768px) {
@@ -175,4 +157,32 @@ a.upcoming-title:hover {
     padding-left: 0;
     padding-top: 1rem;
   }
+}
+
+a.upcoming-title {
+  display: block;
+  font-weight: 600;
+  color: #b42318;
+  text-decoration: none;
+}
+
+a.upcoming-title:hover {
+  text-decoration: underline;
+}
+.upcoming-row {
+  display: grid;
+  grid-template-columns: 4.6rem 1fr;
+  gap: 0.4rem;
+  align-items: start;
+  margin: 0.25rem 0 0;
+}
+
+.upcoming-row .upcoming-when {
+  font-size: 0.75rem;
+  line-height: 1.35;
+}
+
+.upcoming-row .upcoming-title {
+  font-size: 0.9rem;
+  line-height: 1.35;
 }

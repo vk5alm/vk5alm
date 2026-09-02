@@ -18,7 +18,7 @@ We look forward to seeing you there!
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7834460377594!2d139.26287895615334!3d-35.12580215563995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab70cb81ff269cf%3A0x7eb5224d6d526dcf!2s12+Thomas+St%2C+Murray+Bridge+SA+5253!5e0!3m2!1sen!2sau!4v1480036568644" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 :::
 
-## VK5RDM Repeater
+## VK5RDM Repeater will be back soon now Internet access is restored.
 
 - Output Tx **439.850 MHz**
 - Input Rx **434.850 MHz** (No CTCSS tone)
@@ -110,10 +110,8 @@ function formatTime(d) {
   return min ? h + ":" + pad(min) + " " + ampm : h + ":00 " + ampm;
 }
 
-function dayKeyFromStart(value, fallbackDate) {
-  const m = String(value || "").match(/^(\d{4}-\d{2}-\d{2})/);
-  if (m) return m[1];
-  return fallbackDate.getFullYear() + "-" + pad(fallbackDate.getMonth() + 1) + "-" + pad(fallbackDate.getDate());
+function dayKey(d) {
+  return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate());
 }
 
 function renderUpcoming(events) {
@@ -132,15 +130,15 @@ function renderUpcoming(events) {
   const groups = [];
   const byDay = {};
   upcoming.forEach(function (ev) {
-    const key = dayKeyFromStart(ev.start, ev.startDate);
+    const key = dayKey(ev.startDate);
     if (!byDay[key]) {
-      byDay[key] = { key: key, date: ev.startDate, items: [] };
+      byDay[key] = { date: ev.startDate, items: [] };
       groups.push(byDay[key]);
     }
     byDay[key].items.push(ev);
   });
 
-  const shown = groups.slice(0, 6);
+  const shown = groups.slice(0, 5);
   if (!shown.length) {
     root.innerHTML = "<p>No upcoming events listed.</p>";
     return;
@@ -156,14 +154,18 @@ function renderUpcoming(events) {
     const rows = group.items.map(function (ev) {
       const timed = String(ev.start).indexOf("T") !== -1;
       const when = timed ? formatTime(ev.startDate) : "All day";
-      const url = ev.url || "";
+      const url = ev.url || (ev.extendedProps && ev.extendedProps.url) || "";
       const title = ev.title || "Event";
-      const short = title.length > 36 ? title.slice(0, 35) + "\u2026" : title;
-      const safe = title.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+      const short = title.length > 36 ? title.slice(0, 35) + "…" : title;
       const name = url
-        ? '<a class="upcoming-title" href="' + url + '" target="_blank" rel="noopener" title="' + safe + '">' + short + "</a>"
-        : '<span class="upcoming-title" title="' + safe + '">' + short + "</span>";
-      return '<li class="upcoming-row"><span class="upcoming-when">' + when + "</span> " + name + "</li>";
+        ? '<a class="upcoming-title" href="' + url + '" target="_blank" rel="noopener" title="' + title.replace(/"/g, "&quot;") + '">' + short + "</a>"
+        : '<span class="upcoming-title" title="' + title.replace(/"/g, "&quot;") + '">' + short + "</span>";
+      return (
+        '<div class="upcoming-row">' +
+          '<span class="upcoming-when">' + when + "</span>" +
+          name +
+        "</div>"
+      );
     }).join("");
     return (
       '<article class="upcoming-item">' +
@@ -173,7 +175,7 @@ function renderUpcoming(events) {
         "</div>" +
         '<div class="upcoming-body">' +
           '<div class="upcoming-weekday">' + weekday + "</div>" +
-          '<ul class="upcoming-list">' + rows + "</ul>" +
+          rows +
         "</div>" +
       "</article>"
     );
@@ -203,4 +205,3 @@ document.addEventListener("DOMContentLoaded", function () {
     .catch(function () { renderUpcoming(recurring); });
 });
 </script>
-```
